@@ -17,7 +17,7 @@ In this application, each peer acts as both a client and a server:
 
 3. Inside the root directory of each machine, create "peer folder(s)". For example, if peers p1 & p2 will be running on some machine, that machine should create folders `p1` & `p2` in the root directory.
 
-4. Inside each peer folder, save a copy of both `client.py` & `server.py`. The Python source files can be found in the `src` folder in this directory.
+4. Inside each peer folder, save a copy of both `client.py` & `server.py`. The Python source files can be found in the `src` folder in this repository.
 
 5. Inside each peer folder, create a directory `served_files`. This folder will store the files that will be served by the corresponding peer of this peer folder.
 
