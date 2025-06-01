@@ -13,7 +13,7 @@ In this application, each peer acts as both a client and a server:
 1. For each machine that some peer(s) will be running on, create a new directory so that it will be identified as the "root directory" of this application.
 
 2. Inside the root directory of each machine, create a text file `peer_settings.txt`. Each of them should save the same set and the entire list of peers. That is, on each line, the files save the following information: 
-"peer_ID ip_addr server_port"
+`peer_ID ip_addr server_port`
 
 3. Inside the root directory of each machine, create "peer folder(s)". For example, if peers p1 & p2 will be running on some machine, that machine should create folders `p1` & `p2` in the root directory.
 
